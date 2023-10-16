@@ -15,10 +15,9 @@ border: lightblue solid 2px;
 max-width: 300px;
 max-height: 500x;
 min-width: 300px;
-background-color: lightgoldenrodyellow;
+background-color: #FFEB3B;
 margin: 10px;
 padding-bottom: -5px;
-
 }
 
 .cardName {
@@ -70,6 +69,7 @@ margin: auto;
 img {
 width: 300px;
 height: 300px;
+position: relative;
 }
 
 footer {
@@ -85,4 +85,13 @@ footer {
 @font-face {
   font-family: PixelifySana-VariableFont_wght;
   src: url(fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
+@media (max-width: 350px) {
+  .deck {
+    flex-direction: column;
+  }
+  .card{
+    align-self: center;
+  }
 }
