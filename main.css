@@ -1,0 +1,88 @@
+body {
+  background-color: lightseagreen;
+}
+
+#deck {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 75%;
+
+}
+
+.card {
+border: lightblue solid 2px;
+max-width: 300px;
+max-height: 500x;
+min-width: 300px;
+background-color: lightgoldenrodyellow;
+margin: 10px;
+padding-bottom: -5px;
+
+}
+
+.cardName {
+border: lightblue solid 1px;
+text-align: center;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+margin-bottom: 0px;
+padding-bottom: 15px;
+justify-content: center;
+font-family: PixelifySana-VariableFont_wght;
+}
+
+.availability {
+  border: 1px;
+  background-color: slategrey;
+  color: yellow;
+  padding: 3px;
+}
+
+.description {
+  height: fit-content;
+  font-family: YoungSerif-Regular;
+  margin:  auto;
+}
+
+.specifications {
+  text-align: first;
+  font-weight: bold;
+  font-family: YoungSerif-Regular;
+  margin:  auto;
+  
+}
+
+.pricing {
+  font-weight: bold;
+  font-family: YoungSerif-Regular;
+}
+
+.details {
+font-size: smaller;
+display: flex;
+font-weight: bold;
+font-family: YoungSerif-Regular;
+margin: auto;
+}
+
+img {
+width: 300px;
+height: 300px;
+}
+
+footer {
+  font-size: xx-small;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: YoungSerif-Regular;
+  src: url(fonts/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: PixelifySana-VariableFont_wght;
+  src: url(fonts/PixelifySans-VariableFont_wght.ttf);
+}
